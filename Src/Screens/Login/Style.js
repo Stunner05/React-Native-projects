@@ -5,7 +5,7 @@ export const styles= StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "blue",
+        backgroundColor: '#F9FBFC',
         marginTop: 40,
         // height: 200
         
@@ -15,11 +15,12 @@ export const styles= StyleSheet.create({
         borderRadius: 30,
         width: 320,
         // borderWidth: 1,
-        borderColor: "white",
+        borderColor: "#e8e8e8",
         height: 60,
         // marginBottom: 20,
-        borderRadius: 10,
-        backgroundColor: "white"
+        borderRadius: 5,
+        backgroundColor: "white",
+        borderWidth: 1,
         // backgroundColor: "blue",
         // marginHorizontal: 10,
         // alignItems: "center"
@@ -28,6 +29,8 @@ export const styles= StyleSheet.create({
     text2: {
         marginTop: 25,
         borderRadius: 30,
+        borderColor: "#e8e8e8",
+        borderWidth: 1,
         backgroundColor: "white",
         width: 320,
         height: 60,
@@ -38,7 +41,9 @@ export const styles= StyleSheet.create({
         // alignItems: "center"
 
     },
-    ForgotSign: { 
+    ForgotSign: {
+        width: 320,
+        height: 50,
         fontSize: 20,
         color: "white",
         justifyContent:  "center",
@@ -46,23 +51,28 @@ export const styles= StyleSheet.create({
         marginTop: 20,
     },
     loginBtn: {
-        width: 300,
+        width: 320,
         height: 50,
-        borderRadius: 20,
-        backgroundColor: `#ffa500`,
+        borderRadius: 5,
+        backgroundColor: `#3B71F3`,
         justifyContent: "center",
         alignItems: "center",
-        marginTop: 30,
+        marginTop: 20,
 
     },
     SignupBtn:{
-        width: 250,
+        width: 320,
         height: 50,
+        fontSize: 20,
+        color: "white",
         justifyContent: "center",
         alignItems: "center",
-        marginTop: 40,
+        marginTop: 20,
         
 
+        
+    },
+    Google: {
         
     }
     

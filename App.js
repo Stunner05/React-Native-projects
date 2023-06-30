@@ -7,7 +7,8 @@ import SignUp from './Src/Screens/SignUp/SignUp';
 import Dashboard from './Src/Screens/Dashboard/Dashboard';
 import BottomTabNav from './Src/Navigation/BottomTabNav';
 import Tracker from './Src/Screens/Tracker/Tracker';
-
+import ConfirmEmail from './Src/ConfirmEmail/ConfirmEmail';
+import ResetPassword from './Src/Screens/ResetPassword/ResetPassword';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,6 +22,9 @@ export default function App() {
         <Stack.Screen name="Login" component={Login} options={{headerShown: false}} />
         <Stack.Screen name="Dashboard" component={BottomTabNav} options={{headerShown: false}} />
         <Stack.Screen name="SignUp" component={SignUp} options={{headerShown: false}} />
+        <Stack.Screen name="ConfirmEmail" component={ConfirmEmail} options={{headerShown: false}} />
+        <Stack.Screen name="ResetPassword" component={ResetPassword} options={{headerShown: false}} />
+        
 
         
 
@@ -32,7 +36,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F9FBFC',
     alignItems: 'center',
     justifyContent: 'center',
   },

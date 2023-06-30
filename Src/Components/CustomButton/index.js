@@ -6,11 +6,11 @@ import Icon from '@expo/vector-icons/EvilIcons'
 // import { AntDesign } from '@expo/vector-icons';
 
 
-const CustomButton = ({ text, bgColor, fgColor, icon }
+const CustomButton = ({ text, bgColor, fgColor, icon, onPress }
 ) => {
     return (
         <View style={[styles.container, bgColor ? { backgroundColor: bgColor } : {}]}>
-            <Pressable >
+            <Pressable onPress={onPress}>
                 <Text
                     style={[
                         styles.Text,

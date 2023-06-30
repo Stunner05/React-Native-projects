@@ -1,9 +1,9 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Pressable } from 'react-native'
 import React from 'react'
 import { TextInput } from 'react-native-gesture-handler'
 // import { style } from 'deprecated-react-native-prop-types/DeprecatedImagePropType'
 
-const CustomInput = ({ value, setvalue, placeholder }) => {
+const CustomInput = ({ value, setvalue, placeholder, secureTextEntry }) => {
 
     return (
         <View style={styles.container}>
@@ -12,6 +12,7 @@ const CustomInput = ({ value, setvalue, placeholder }) => {
                 setvalue={setvalue}
                 placeholder={placeholder}
                 style={styles.text}
+                secureTextEntry={secureTextEntry}
             />
         </View>
     )
@@ -19,12 +20,12 @@ const CustomInput = ({ value, setvalue, placeholder }) => {
 
 styles = StyleSheet.create({
     container: {
-        // marginHorizontal: 20,
+        
     },
     text: {
 
         // marginTop: 200,
-        marginVertical: 20,
+        marginVertical: 5,
         borderRadius: 30,
         width: 320,
         // borderWidth: 1,

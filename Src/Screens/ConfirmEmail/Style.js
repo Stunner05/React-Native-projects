@@ -1,22 +1,22 @@
 import { StyleSheet } from "react-native";
 
-export const styles= StyleSheet.create({
-    container:{
+export const styles = StyleSheet.create({
+    container: {
         // justifyContent: "center",
         alignItems: 'center',
-        padding: 20, 
+        padding: 20,
 
 
     },
     text: {
-            margin: 10,
-            fontSize: 35,
-            fontWeight: "bold",
-            // marginHorizontal: 50,
-            padding: 10,
-            color: '#051C60',
+        margin: 10,
+        fontSize: 35,
+        fontWeight: "bold",
+        // marginHorizontal: 50,
+        padding: 10,
+        color: '#051C60',
 
-        },
+    },
     RegisterBtn: {
         width: 300,
         height: 50,
